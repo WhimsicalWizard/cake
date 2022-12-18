@@ -41,7 +41,7 @@ public class cake extends JFrame implements ActionListener {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         cake ck = new cake();
         ck.real();
     }
@@ -57,11 +57,11 @@ public class cake extends JFrame implements ActionListener {
         } else {
             int temp = wheat/3;
             if (temp<=egg && temp<=milk){
-                JOptionPane.showMessageDialog(this, temp +"  pound cake can be made");
+                JOptionPane.showMessageDialog(this, temp +" pound cake can be made");
             } else if (egg<=milk){
-                JOptionPane.showMessageDialog(this, egg +"  pound cake can be made");
+                JOptionPane.showMessageDialog(this, egg +" pound cake can be made");
             } else
-                JOptionPane.showMessageDialog(this, milk +"  pound cake can be made");
+                JOptionPane.showMessageDialog(this, milk +" pound cake can be made");
             }
         }
 
