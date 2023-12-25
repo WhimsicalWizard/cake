@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class cake extends JFrame implements ActionListener {
-    int egg, wheat, milk, cake;
+    int egg, wheat, milk;
     JTextField txt1, txt2, txt3;
     JLabel l1, l2, l3;
     JButton b1;
