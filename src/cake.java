@@ -8,7 +8,7 @@ public class cake extends JFrame implements ActionListener {
     JLabel l1, l2, l3;
     JButton b1;
 
-  void  real(){
+public cake(){
         l1 = new JLabel();
         l1.setBounds(10,20 ,50, 20);
         l1.setText("Egg(pcs)");
@@ -42,8 +42,7 @@ public class cake extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args){
-        cake ck = new cake();
-        ck.real();
+        new cake();
     }
 
     @Override
